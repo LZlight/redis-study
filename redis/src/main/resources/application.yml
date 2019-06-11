@@ -1,0 +1,13 @@
+spring:
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    usePool: true
+    maxIdle: 300
+    maxActive: 600
+    maxWait: 1000
+    testOnBorrow: true
+server:
+  port: 8088
+
